@@ -1,0 +1,109 @@
+/*******************************
+Header & Footer
+*******************************/
+
+header {
+  background: #4c5e7c;
+  padding: 25px 0;
+  margin-bottom: 25px;
+  text-align: center;
+  border-bottom: solid 6px rgb(40, 56, 80);
+  color: #fff;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  background: #4c5e7c;
+  padding: 25px 0;
+  margin-top: 25px;
+  text-align: center;
+  border-top: solid 6px rgb(40, 56, 80);
+  color: #fff;
+  font-size: 1.1em;
+}
+
+
+
+
+/*******************************
+Text Style
+*******************************/
+
+ul {
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-bottom: 75px;
+    width: 55%;
+    font-size: 1.2em;
+    line-height: 1.75;
+    list-style: none;
+    float: left;
+}
+
+.name {
+    font-size: 2.5em;
+}
+
+.nickname {
+    font-size: 1.6em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+
+/*******************************
+Picture
+*******************************/
+
+.photo {
+    display: block;
+    margin: 2em 2em;
+    padding: 0.5em;
+    border: 2px solid rgb(40, 56, 80);
+    border-radius: 3%;
+    box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.8);
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/*******************************
+Link Box
+*******************************/
+
+a:link, a:visited {
+    font-size: 1.25em;
+    color: #fff;
+    display: inline-block;
+    padding: 2em;
+    float: right;
+    margin: 2em 0 0 0;
+    border: 2px solid rgb(40, 56, 80);
+    border-radius: 100%;
+    width: 30%;
+    box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.8);
+    background-color: rgb(76, 94, 124);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover {
+    background-color: rgb(53, 82, 131);
+}
